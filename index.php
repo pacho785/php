@@ -31,5 +31,9 @@
     <a href="tutorial11.php">11</a>
     <br>
     <a href="formulario_.php">12</a>
+    <br>
+    <a href="tutorial13.php">13</a>
+    <br>
+    <a href="tutorial14.php">14</a>
 </body>
 </html>

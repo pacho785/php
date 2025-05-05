@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Traer datos de un formulario</h1>
+    <br>
     <form action="tutorial9.php" method="post">
         ingrese su nombre deportista: 
         <input type="text" name="nombre">

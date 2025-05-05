@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Crear un archivo</h1>
+    <br>
     <form action="tutorial12.php" method="post">
         Ingrese su nombre:
         <input type="text" name="nombre">
