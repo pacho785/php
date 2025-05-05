@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/tutorial12.php" method="post">
+    <form action="tutorial12.php" method="post">
         Ingrese su nombre:
         <input type="text" name="nombre">
             <br>

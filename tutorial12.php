@@ -7,8 +7,12 @@
 </head>
 <body>
     <?php
-        $ar = fopen("pedidos.txt", "a") or
-            die("Problemas para crear el archivo");
+        $ar = fopen("pedidos.txt", "a"); 
+
+        if (!$ar) {
+            die("No se pudo abrir el archivo para escritura.");
+        }
+        
         fputs($ar, $_REQUEST['nombre']);
         fputs($ar, "\n");
         fputs($ar, $_REQUEST['direccion']);
@@ -34,9 +38,11 @@
         fputs($ar, "\n");
         fclose($ar);
 
-        echo("Los datos se cargaron correctamente...");
+        echo("Los datos se cargaron correctamente..." . "<br>");
+        echo "Archivo guardado en: " . getcwd();
 
     ?>
+    <br>
     <a href="index.php">index</a>
 </body>
 </html>
