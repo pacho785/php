@@ -37,6 +37,6 @@
     <a href="tutorial14.php">14</a>
     <br>
     <h1>Tutorail 2</h1>
-    <a href="tutorial 2/formulario15.php">15</a>
+    <a href="t2formulario15.php">15</a>
 </body>
 </html>

@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="tutorial15.php" method="post">
+<form action="t2tutorial15.php" method="post">
   <label for="usuario">Nombre de usuario:</label>
   <input type="text" id="usuario" name="usuario" required><br><br>
 
