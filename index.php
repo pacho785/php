@@ -38,5 +38,13 @@
     <br>
     <h1>Tutorail 2</h1>
     <a href="t2formulario15.php">15</a>
+    <br>
+    <a href="t2form16Insert.php">16</a>
+    <br>
+    <a href="t2tutorial17.php">17</a>
+    <br>
+    <a href="t2form18Consulta.php">18</a>
+    <br>
+    <a href="t2form19Delete.php">19</a>
 </body>
 </html>
