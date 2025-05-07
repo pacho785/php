@@ -6,13 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="t2tutorial19.php" method="post">
-        ingrese el mail del alumno a eliminar: 
+    <form action="t2formtutorial21.php" method="post">
+        Ingrese el mail del estudiante para modificar
         <input type="text" name="mail">
         <br>
-        <input type="submit" value="registrar">
-        <br>
-        
+        <input type="submit" value="buscar">
     </form>
 </body>
 </html>
